@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Le Potato Music Player</title>
+    <!-- Include CSS styles if needed -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Le Potato Music Player</h1>
+        </div>
+    </nav>
+
+    <header class="header">
+        <h2 class="subtitle">By Andrew Jop</h2>
+    </header>
+
+    <main class="main-content">
+        <section class="songs-section">
+            <h3 class="section-title">Songs</h3>
+            <ul id="playlist" class="playlist"></ul>
+        </section>
+
+        <audio id="audio" controls class="audio-player"></audio>
+
+        <h1>Audio Visualizer</h1>
+        <div class="vis">
+            <canvas id="visualizer" width="600" height="300"></canvas>
+        </div>
+    </main>
+
+    <!-- Disclaimer for music source -->
+    <footer class="footer">
+        <p>Music sourced from <a href="https://nocopyrightsounds.co.uk/" target="_blank">No Copyright Sounds</a></p>
+    </footer>
+
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
