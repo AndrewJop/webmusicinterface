@@ -3,14 +3,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const audio = document.getElementById('audio');
     const musicFiles = [
         // Add paths to your music files
-        'Men I Trust - Show Me How (Kitsch Edit).mp3',
-        'Duskus - Moss.mp3',
+        '/music/Ikson - Last Summer.mp3',
+        '/music/Sara Skinner - Lost Sky Dreams pt. II.mp3',
+        '/music/Chris Linton - Lost Sky Fearless pt.II.mp3',
+        '/music/Robin Hustin & TobiMorrow - Light It Up feat. Jex Future Bounce.mp3',
+        '/music/Syn Cole - Feel Good.mp3',
+        '/music/intouch - Baby Sweet Garage House.mp3',
+        '/music/Julius Dreisig - Zeus x Crona.mp3'
         // Add more music files as needed
     ];
 
     const songNames = [
-        'Men I Trust - Show Me How (Kitsch Edit)',
-        'Duskus - Moss',
+        'Ikson - Last Summer.mp3',
+        'Sara Skinner - Lost Sky Dreams pt. II.mp3',
+        'Chris Linton - Lost Sky Fearless pt.II.mp3',
+        'Robin Hustin & TobiMorrow - Light It Up feat. Jex Future Bounce.mp3',
+        'Syn Cole - Feel Good.mp3',
+        'intouch - Baby Sweet Garage House.mp3',
+        'Julius Dreisig - Zeus x Crona.mp3'
         // Add more song titles corresponding to the musicFiles array
     ];
 
