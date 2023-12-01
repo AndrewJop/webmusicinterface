@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const audio = document.getElementById('audio');
     const musicFiles = [
         // Add paths to your music files
-        '/music/Ikson - Last Summer.mp3',
-        '/music/Sara Skinner - Lost Sky Dreams pt. II.mp3',
-        '/music/Chris Linton - Lost Sky Fearless pt.II.mp3',
-        '/music/Robin Hustin & TobiMorrow - Light It Up feat. Jex Future Bounce.mp3',
-        '/music/Syn Cole - Feel Good.mp3',
-        '/music/intouch - Baby Sweet Garage House.mp3',
-        '/music/Julius Dreisig - Zeus x Crona.mp3'
+        'music/Ikson - Last Summer.mp3',
+        'music/Sara Skinner - Lost Sky Dreams pt. II.mp3',
+        'music/Chris Linton - Lost Sky Fearless pt.II.mp3',
+        'music/Robin Hustin & TobiMorrow - Light It Up feat. Jex Future Bounce.mp3',
+        'music/Syn Cole - Feel Good.mp3',
+        'music/intouch - Baby Sweet Garage House.mp3',
+        'music/Julius Dreisig - Zeus x Crona.mp3'
         // Add more music files as needed
     ];
 
