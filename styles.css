@@ -119,6 +119,7 @@ audio {
     position: absolute;
     bottom: 0;
     width: 100%;
+    position: static;
 }
 
 .footer a {
@@ -128,4 +129,40 @@ audio {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+.addSongButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 27px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.addSongButton:hover {
+    background-color: #295f2c;
+}
+
+.deleteSongButton {
+    background-color: #e91722;
+    border: none;
+    color: white;
+    padding: 20px 27px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.deleteSongButton:hover {
+    background-color: #7a1212;
 }
